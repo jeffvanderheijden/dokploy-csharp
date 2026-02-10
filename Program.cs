@@ -16,7 +16,7 @@ var app = builder.Build();
 
 app.MapGet("/", () => Results.Json(new
 {
-    name = "SimpleDokployApp",
+    name = "DokployApp",
     status = "ok",
     timestamp = DateTimeOffset.UtcNow
 }));
